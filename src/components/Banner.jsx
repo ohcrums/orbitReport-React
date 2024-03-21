@@ -1,3 +1,5 @@
+import './styling.css';
+
 function Banner() {
     // functional component returns html     
     // return header tag that says orbit report and p tag with user instructions

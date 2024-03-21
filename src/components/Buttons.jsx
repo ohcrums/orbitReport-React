@@ -1,8 +1,10 @@
 import satData from "./satData";
+import './styling.css';
 
 const Buttons = ({ filterByType, setSat, displaySats }) => {
   return (
-    <div>
+    // styling class centers the div
+    <div className="flex-container">
       {/* maps displaySats to make buttons for each orbitType */}
       {displaySats.map((sat, id) => {
         // returns html for buttons with filterByType prop onClick

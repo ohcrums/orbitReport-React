@@ -1,3 +1,5 @@
+import './styling.css';
+
 // table must provide satellite data: Name, Type of satellite, Launch Date, and Status
 const Table = ({ sat }) => {
   return (
